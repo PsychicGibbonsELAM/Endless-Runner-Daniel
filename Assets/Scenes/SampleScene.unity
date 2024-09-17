@@ -234,7 +234,6 @@ GameObject:
   - component: {fileID: 400623871}
   - component: {fileID: 400623870}
   - component: {fileID: 400623869}
-  - component: {fileID: 400623868}
   - component: {fileID: 400623873}
   m_Layer: 0
   m_Name: Player
@@ -243,18 +242,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &400623868
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 400623867}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75bf56336ec7cdb488730743120a0202, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &400623869
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -406,6 +393,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86eee8807ae272c4fa9e4f8e6de7d207, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jump: {fileID: 0}
+  bgMusic: {fileID: 0}
+  sfxPlayer: {fileID: 0}
+  musicPlayer: {fileID: 0}
   moveSpeed: 8
   jumpForce: 20
   groundCheckPoint: {fileID: 400623872}

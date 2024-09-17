@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class Playermovement2 : MonoBehaviour
 {
+    public AudioClip jump;
+    public AudioClip bgMusic;
+    public AudioSource sfxPlayer;
+    public AudioSource musicPlayer;
     public float moveSpeed = 5f;
     public float jumpForce = 10f;
     public Transform groundCheckPoint;
