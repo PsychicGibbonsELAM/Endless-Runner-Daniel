@@ -737,7 +737,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 0.7888336
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -1599,12 +1599,20 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2520733764472538219, guid: 10e0d1c0b15106844b6f82d3e6205926, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.5003285
+      objectReference: {fileID: 0}
+    - target: {fileID: 2520733764472538219, guid: 10e0d1c0b15106844b6f82d3e6205926, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4.14318
+      objectReference: {fileID: 0}
+    - target: {fileID: 2520733764472538219, guid: 10e0d1c0b15106844b6f82d3e6205926, type: 3}
       propertyPath: m_LocalPosition.x
       value: -18.219
       objectReference: {fileID: 0}
     - target: {fileID: 2520733764472538219, guid: 10e0d1c0b15106844b6f82d3e6205926, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.4
+      value: -3.5
       objectReference: {fileID: 0}
     - target: {fileID: 2520733764472538219, guid: 10e0d1c0b15106844b6f82d3e6205926, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1638,9 +1646,65 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2816736998548139216, guid: 10e0d1c0b15106844b6f82d3e6205926, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 2988a5ededd8d2142b75568fe70e198c, type: 2}
+    - target: {fileID: 5692132278895185189, guid: 10e0d1c0b15106844b6f82d3e6205926, type: 3}
+      propertyPath: m_Size.x
+      value: 0.38060355
+      objectReference: {fileID: 0}
+    - target: {fileID: 5692132278895185189, guid: 10e0d1c0b15106844b6f82d3e6205926, type: 3}
+      propertyPath: m_Size.y
+      value: 0.30757096
+      objectReference: {fileID: 0}
+    - target: {fileID: 5692132278895185189, guid: 10e0d1c0b15106844b6f82d3e6205926, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 789c865ddb1103b4e926352fe85dccf8, type: 2}
+    - target: {fileID: 5692132278895185189, guid: 10e0d1c0b15106844b6f82d3e6205926, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.0101647675
+      objectReference: {fileID: 0}
+    - target: {fileID: 5692132278895185189, guid: 10e0d1c0b15106844b6f82d3e6205926, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.019083485
+      objectReference: {fileID: 0}
+    - target: {fileID: 5692132278895185189, guid: 10e0d1c0b15106844b6f82d3e6205926, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 0.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 5692132278895185189, guid: 10e0d1c0b15106844b6f82d3e6205926, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 5692132278895185189, guid: 10e0d1c0b15106844b6f82d3e6205926, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 5692132278895185189, guid: 10e0d1c0b15106844b6f82d3e6205926, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.24
+      objectReference: {fileID: 0}
     - target: {fileID: 7596211493660162256, guid: 10e0d1c0b15106844b6f82d3e6205926, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7796810769233526715, guid: 10e0d1c0b15106844b6f82d3e6205926, type: 3}
+      propertyPath: m_Size.x
+      value: 0.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 7796810769233526715, guid: 10e0d1c0b15106844b6f82d3e6205926, type: 3}
+      propertyPath: m_Size.y
+      value: 0.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 7796810769233526715, guid: 10e0d1c0b15106844b6f82d3e6205926, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1037426211, guid: 440debc11ec73974fb6edc9d39c3060f, type: 3}
+    - target: {fileID: 7796810769233526715, guid: 10e0d1c0b15106844b6f82d3e6205926, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
