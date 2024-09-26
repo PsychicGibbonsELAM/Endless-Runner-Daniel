@@ -37,8 +37,9 @@ public class PlayerMovement : MonoBehaviour
         //jumping logic
         if (isGrounded && Input.GetKeyDown(KeyCode.Space))
         {
-            sfxPlayer.PlayOneShot(jump);
             Jump();
+            sfxPlayer.PlayOneShot(jump);
+            
         }
     }
 

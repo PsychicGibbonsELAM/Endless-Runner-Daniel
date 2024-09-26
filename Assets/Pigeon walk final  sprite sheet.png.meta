@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 440debc11ec73974fb6edc9d39c3060f
+guid: e5db47d6ee4f8d94892afc8ef279a3a9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -149,7 +149,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pigeon walk final Sprite sheet _0
+      name: Pigeon walk final  sprite sheet_0
       rect:
         serializedVersion: 2
         x: 21
@@ -163,14 +163,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87dc0f92570ee7f4c9d30354cc11f52a
-      internalID: -1037426211
+      spriteID: e6ec92bfb97b2874a87e790058d8ac6e
+      internalID: 1550022978
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pigeon walk final Sprite sheet _1
+      name: Pigeon walk final  sprite sheet_1
       rect:
         serializedVersion: 2
         x: 85
@@ -184,14 +184,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c711657f03eee044685a685b7d3a9f3f
-      internalID: 1796300949
+      spriteID: 380f231ccc757ee46a19abcc38d90c61
+      internalID: -573603530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pigeon walk final Sprite sheet _2
+      name: Pigeon walk final  sprite sheet_2
       rect:
         serializedVersion: 2
         x: 149
@@ -205,14 +205,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c4e794096c988b4c9001c6beb0f497e
-      internalID: 1315380171
+      spriteID: f04d2cb024eaac042828e851607609cc
+      internalID: 1926963269
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pigeon walk final Sprite sheet _3
+      name: Pigeon walk final  sprite sheet_3
       rect:
         serializedVersion: 2
         x: 212
@@ -226,14 +226,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14fdbe9ef9e80a9479384803f6d4b100
-      internalID: -921948810
+      spriteID: 2b100f4061ee8dc429974d6f91da9b81
+      internalID: -779134465
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pigeon walk final Sprite sheet _4
+      name: Pigeon walk final  sprite sheet_4
       rect:
         serializedVersion: 2
         x: 275
@@ -247,14 +247,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf29c39f865f2ac43820a7dd8ee80655
-      internalID: -2002698848
+      spriteID: ba211647002321242bd92554477d6c36
+      internalID: 146944745
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pigeon walk final Sprite sheet _5
+      name: Pigeon walk final  sprite sheet_5
       rect:
         serializedVersion: 2
         x: 340
@@ -268,8 +268,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad4a0a6ef4aab52468f914364477b62d
-      internalID: 1531955319
+      spriteID: aa93f1053ab659c4b85ec309dd47323a
+      internalID: -252962157
       vertices: []
       indices: 
       edges: []
@@ -285,12 +285,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Pigeon walk final Sprite sheet _0: -1037426211
-      Pigeon walk final Sprite sheet _1: 1796300949
-      Pigeon walk final Sprite sheet _2: 1315380171
-      Pigeon walk final Sprite sheet _3: -921948810
-      Pigeon walk final Sprite sheet _4: -2002698848
-      Pigeon walk final Sprite sheet _5: 1531955319
+      Pigeon walk final  sprite sheet_0: 1550022978
+      Pigeon walk final  sprite sheet_1: -573603530
+      Pigeon walk final  sprite sheet_2: 1926963269
+      Pigeon walk final  sprite sheet_3: -779134465
+      Pigeon walk final  sprite sheet_4: 146944745
+      Pigeon walk final  sprite sheet_5: -252962157
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
