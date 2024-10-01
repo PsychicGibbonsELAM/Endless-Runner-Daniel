@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -13,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
 
     public AudioClip jump;
     public AudioClip backgroundMusic;
+    public int dubJump = 2;
 
 
     public AudioSource sfxPlayer;
@@ -35,11 +37,17 @@ public class PlayerMovement : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(groundCheckPoint.position, checkRadius, groundLayer);
 
         //jumping logic
-        if (isGrounded && Input.GetKeyDown(KeyCode.Space))
+        if (dubJump >= 1 && Input.GetKeyDown(KeyCode.Space))
         {
             Jump();
             sfxPlayer.PlayOneShot(jump);
+            dubJump -= 1;
             
+        }
+
+        if (isGrounded == true)
+        {
+            dubJump = 2;
         }
     }
 
