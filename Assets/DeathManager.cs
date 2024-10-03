@@ -25,5 +25,3 @@ public class DeathManager : MonoBehaviour
         Application.Quit();
     }
 }
-
-    // Update i
