@@ -20,15 +20,21 @@ public class PlayerMovement : MonoBehaviour
     public AudioSource sfxPlayer;
     public AudioSource musicPlayer;
 
+    Animator anim;
+
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();   //get the rb component attached to player
         sfxPlayer = GetComponent<AudioSource>();
+        anim= GetComponent<Animator>();
     }
 
     void Update()
     {
+        anim.SetBool("GroundChecker", isGrounded);
+
+
 
         //constant forward
         rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
@@ -42,6 +48,7 @@ public class PlayerMovement : MonoBehaviour
             Jump();
             sfxPlayer.PlayOneShot(jump);
             dubJump -= 1;
+            anim.SetTrigger("Jump");
             
         }
 
