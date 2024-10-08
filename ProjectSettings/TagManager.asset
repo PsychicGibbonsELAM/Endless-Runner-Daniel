@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - cleanup
+  - Coin
+  - Spike
   layers:
   - Default
   - TransparentFX

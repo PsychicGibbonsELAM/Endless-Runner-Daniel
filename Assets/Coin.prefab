@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 7159026982719421856}
   - component: {fileID: 1783970671902715510}
   m_Layer: 0
-  m_Name: Croissant pref
-  m_TagString: Untagged
+  m_Name: Coin
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -1,5 +1,6 @@
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -22,6 +23,9 @@ public class PlayerMovement : MonoBehaviour
     public CoinManager cm;
     Animator anim;
 
+    public float timer = 0f;
+    public float delayAmount = 1f;
+
 
     void Start()
     {
@@ -32,6 +36,12 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        timer += Time.deltaTime;
+        if (timer >= delayAmount)
+        {
+            cm.coinCount += 5;
+            timer = 0f;
+        }
         anim.SetBool("GroundChecker", isGrounded);
 
 
@@ -74,10 +84,22 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("coin"))
+        if (other.gameObject.CompareTag("Coin"))
         {
-            Destroy(other.gameObject);
             cm.coinCount += 10;
+            Destroy(other.gameObject);
+
+            PlayerPrefs.SetInt("Highscore", cm.coinCount);
+            PlayerPrefs.GetInt("HighScore");
+            if (cm.coinCount > PlayerPrefs.GetInt("HighScore", 0))
+            {
+                PlayerPrefs.SetInt("HighScore", cm.coinCount);
+            }
+            if (other.gameObject.CompareTag("Spike"))
+            {
+                SceneManager.LoadScene(3);
+            }
+
         }
     }
 
