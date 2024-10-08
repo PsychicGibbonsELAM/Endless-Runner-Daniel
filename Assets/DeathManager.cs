@@ -9,19 +9,19 @@ public class DeathManager : MonoBehaviour
 
     public void ShowDeathScreen()
     {
-        deathScreenCanvas.SetActive(true);
+        SceneManager.LoadScene(3);
         Time.timeScale = 1.0f;
     }
     // Start is called before the first frame update
     public void RestartGame()
     {
         Time.timeScale = 1.0f;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene(0);
     }
 
     public void QuitGame()
     {
         Time.timeScale = 1f;
-        Application.Quit();
+        SceneManager.LoadScene(1);
     }
 }
