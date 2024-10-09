@@ -95,12 +95,13 @@ public class PlayerMovement : MonoBehaviour
             {
                 PlayerPrefs.SetInt("HighScore", cm.coinCount);
             }
-            if (other.gameObject.CompareTag("Spike"))
+        }
+        if (other.gameObject.CompareTag("Spike"))
             {
                 SceneManager.LoadScene(3);
+                Debug.Log("Touched it");
             }
 
         }
     }
 
-}
